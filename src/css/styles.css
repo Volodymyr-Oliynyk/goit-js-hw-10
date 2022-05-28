@@ -18,3 +18,29 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+h2 {
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+
+p {
+  font-weight: 700;
+}
+span {
+  font-weight: 400;
+}
+
+.country-title-box {
+  display: flex;
+  align-items: baseline;
+}
+.country-info__flag,
+.country-list__flag {
+  width: 50px;
+  height: 35px;
+  margin: 10px 10px -10px 10px;
+  }
